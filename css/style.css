@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: mediumaquamarine;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background: rgb(20, 0, 20);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+
+.title {
+    font-family: Monoton, sans-serif;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 20px
+}
