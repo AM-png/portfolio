@@ -1,3 +1,3 @@
-fetch("https://animechan.vercel.app/api/random")
-    .then(res => res.json())
-    .then(quote => console.log(quote.quote))
+// fetch("https://wallhaven.cc/api/v1/w/94x38z")
+//     .then(res => res.json())
+//     .then(data => console.log(data))
