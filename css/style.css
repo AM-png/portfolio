@@ -1,21 +1,21 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    color: mediumaquamarine;
+    color: rgb(10, 185, 120);
     list-style-type: none;
     text-decoration: none;
     font-family: roboto, sans-serif;
 }
 
 body {
-    background: rgb(20, 0, 20);
+    background: white;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid #3CEBA0;
 }
 
 .title {
@@ -28,5 +28,6 @@ nav ul {
 }
 
 nav li {
-    padding-left: 20px
+    padding-left: 20px;
+    font-weight: bold;
 }
