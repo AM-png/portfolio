@@ -46,12 +46,38 @@ a {
     color: #3CEBA0;
 }
 
-h2 {
+.testimony {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.testimonyPic {
+.heading {
+    font-weight: 800;
+    padding: 25px;
+}
+
+.four-sections {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 0 300px 80px 300px;
+}
+
+.testimonyPic1 {
+    height: 200px;
+    border-radius: 20%;
+}
+.testimonyPic2 {
+    height: 200px;
+    border-radius: 20%;
+}
+.testimonyPic3 {
+    height: 200px;
+    border-radius: 20%;
+}
+.testimonyPic4 {
     height: 200px;
     border-radius: 20%;
 }
