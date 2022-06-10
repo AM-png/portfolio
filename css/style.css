@@ -15,6 +15,7 @@ body {
 }
 
 nav {
+    border-bottom: 10px groove #45A29E;
     display: flex;
     justify-content: space-around;
 }
@@ -29,7 +30,7 @@ ul {
 
 .nav-btn:hover {
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 15px;
     background: #45A29E;
 }
 
@@ -37,6 +38,7 @@ ul {
     font-size: 20px;
     height: 100%;
     padding: 0 20px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     color: white;
@@ -52,7 +54,7 @@ ul {
 }
 
 .heading {
-    padding: 25px;
+    padding: 20px;
 }
 
 .four-sections {

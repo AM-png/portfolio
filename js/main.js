@@ -1,6 +1,7 @@
 fetch("https://fakeface.rest/face/json")
     .then(res => res.json())
     .then(data => {
+        console.log(data)
         document.querySelector('.testimonyPic1').src = data.image_url
     })
 
