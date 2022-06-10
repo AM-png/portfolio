@@ -16,12 +16,6 @@ fetch("https://fakeface.rest/face/json")
         document.querySelector('.testimonyPic3').src = data.image_url
 })
 
-fetch("https://fakeface.rest/face/json")
-    .then(res => res.json())
-    .then(data => {
-        document.querySelector('.testimonyPic4').src = data.image_url
-})
-
 document.querySelector('.theme').addEventListener('click', switchTheme)
     
 function switchTheme() {
