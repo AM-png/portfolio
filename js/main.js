@@ -21,9 +21,10 @@ document.querySelector('.theme').addEventListener('click', switchTheme)
 function switchTheme() {
     let background = document.querySelector('body').style.background
 
-    if (background === "black") {
-        document.querySelector('body').style.background = "white"
+    if (background === "rgb(34, 38, 41)") {
+        document.querySelector('body').style.background = "rgb(92, 219, 149)"
     } else {
-        document.querySelector('body').style.background = "black"
+        document.querySelector('body').style.background = "rgb(34, 38, 41)"
+        document.querySelector('*').style.color = "rgb(92, 219, 149)"
     }
 }
