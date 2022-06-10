@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    color: rgb(10, 185, 120);
+    padding: 0;
+    color: white;
     list-style-type: none;
     text-decoration: none;
     font-family: roboto, sans-serif;
 }
 
 body {
-    background: white;
+    background: black;
 }
 
 nav {
@@ -16,18 +17,41 @@ nav {
     align-items: center;
     justify-content: space-around;
     border-bottom: 2px solid #3CEBA0;
+    padding: 5px;
+}
+
+.logo {
+    height: 50px;
 }
 
 .title {
-    font-family: Monoton, sans-serif;
-    font-size: 25px;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    padding-left: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li {
+    padding-left: 20px;
+}
+
+a {
+    color: #3CEBA0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonyPic {
+    height: 200px;
+    border-radius: 20%;
 }
