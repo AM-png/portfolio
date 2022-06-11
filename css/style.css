@@ -47,6 +47,30 @@ ul {
     background: transparent;
 }
 
+.dropdown {
+    display: none;
+}
+
+@media all and (max-width: 700px) {
+    .pages, .social {
+        display: none;
+    }
+    nav {
+        justify-content: center;
+    }
+    .dropdown {
+        display: block;
+        background: rgb(92, 219, 149);
+        border: 2px solid transparent;
+        border-radius: 15px;
+    }
+}
+
+
+.main-photo {
+    width: 100%;
+}
+
 .testimony {
     display: flex;
     flex-direction: column;
@@ -54,14 +78,23 @@ ul {
 }
 
 .heading {
+    margin: 10px;
     padding: 20px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 40px;
 }
 
 .four-sections {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 50px;
+}
+
+.group {
+    width: 200px;
 }
 
 .testimonyPic1, .testimonyPic2, .testimonyPic3 {
@@ -71,6 +104,9 @@ ul {
 }
 
 .asterisk {
-    background: #379683;
+    border-top: 10px ridge #45A29E;
+    border-bottom: 10px groove #45A29E;
+    background: #1F2937;
     height: 100px;
+    padding: 5px;
 }
