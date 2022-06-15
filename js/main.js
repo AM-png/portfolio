@@ -30,7 +30,9 @@ function switchTheme() {
             text[i].style.color = "white";
         }
         
-        document.querySelectorAll('.nav-btn:hover').style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
+        let hover = document.querySelector('.nav-btn:hover')
+        
+        .style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
         document.querySelector('.nav-btn:hover').style.border = "3px solid #66FCF1"
     }
 }
