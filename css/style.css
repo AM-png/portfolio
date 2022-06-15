@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
     list-style-type: none;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
@@ -12,11 +12,10 @@
 }
 
 body {
-    background-image: url("https://images.pexels.com/photos/7711899/pexels-photo-7711899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    background: rgb(222, 242, 241);
 }
 
 nav {
-    border-bottom: 10px groove #45A29E;
     display: flex;
     justify-content: space-around;
 }
@@ -30,9 +29,9 @@ ul {
 }
 
 .nav-btn:hover {
-    border: 3px solid pink;
-    box-shadow: 0 0 15px pink, 0 0 15px pink inset;
-    border-radius: 15px;;
+    /* #66FCF1; */
+    border: 3px solid transparent;
+    box-shadow: 0 0 20px gray;
 }
 
 .nav-btn, .title:hover {
@@ -42,9 +41,9 @@ ul {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    color: white;
     border: 3px solid transparent;
     box-shadow: none;
+    border-radius: 30px;
     background: transparent;
 }
 
@@ -61,7 +60,7 @@ ul {
     }
     .dropdown {
         display: block;
-        background: rgb(92, 219, 149);
+        background: transparent;
         border: 2px solid transparent;
         border-radius: 15px;
     }
@@ -110,4 +109,5 @@ ul {
     background: #1F2937;
     height: 100px;
     padding: 5px;
+    color: white;
 }
