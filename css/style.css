@@ -28,7 +28,11 @@ ul {
     display: flex;
 }
 
-.nav-btn:hover {
+.theme {
+    height: 32px;
+}
+
+.nav-btn:hover, .social {
     /* #66FCF1; */
     border: 3px solid transparent;
     box-shadow: 0 0 20px gray;
@@ -80,8 +84,6 @@ ul {
 .heading {
     margin: 10px;
     padding: 20px;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
     border-radius: 40px;
 }
 
@@ -109,5 +111,4 @@ ul {
     background: #1F2937;
     height: 100px;
     padding: 5px;
-    color: white;
 }

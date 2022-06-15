@@ -19,21 +19,18 @@ fetch("https://fakeface.rest/face/json")
 document.querySelector('.theme').addEventListener('click', switchTheme)
     
 function switchTheme() {
-    let background = document.querySelector('body').style.background
+    let background = document.querySelector('body')
 
-    if (background === 'rgb(34, 38, 41)') {
-        console.log('hi')
-    } else {
-        document.querySelector('body').style.background = "rgb(34, 38, 41)";
+    if (true) {
+        background.style.backgroundImage = 'url("images/darkSpace.jpg")';
+        background.style.backgroundSize = 'contain'
+        document.querySelector('.github').src = 'images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png'
         let text = document.getElementsByTagName('*')
         for (let i = 0; i < text.length; i++) {
             text[i].style.color = "white";
         }
         
-        let navBtns = document.querySelectorAll('.nav-btn:hover')
-        for (let i = 0; i < navBtns.length; i++) {
-            navBtns[i].style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
-            navBtns[i].style.border = "3px solid #66FCF1";
-        }
+        document.querySelectorAll('.nav-btn:hover').style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
+        document.querySelector('.nav-btn:hover').style.border = "3px solid #66FCF1"
     }
 }
