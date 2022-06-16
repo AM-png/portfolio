@@ -19,19 +19,9 @@ fetch("https://fakeface.rest/face/json")
 document.querySelector('.theme').addEventListener('click', switchTheme)
     
 function switchTheme() {
-    let background = document.querySelector('body')
-    background.classList.toggle("body-darkM")
+    document.querySelector('body').classList.toggle("body-darkM")
     document.querySelector('.github').classList.toggle("github-darkM")
-    
-    document.querySelector("p").classList.toggle("nav-btn-darkM")
-    
-    if (true) {
-        // let text = document.getElementsByTagName('*')
-        // for (let i = 0; i < text.length; i++) {
-        //     text[i].style.color = "white";
-        // }
-        
-        document.querySelector('.nav-btn:hover').style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
-        document.querySelector('.nav-btn:hover').style.border = "3px solid #66FCF1"
-    }
+
+   
+    // document.querySelector('.nav-btn:hover').toggle("nav-btn-darkM:hover")
 }
