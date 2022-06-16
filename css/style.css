@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: black;
     list-style-type: none;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
@@ -13,10 +12,11 @@
 
 body {
     background: rgb(222, 242, 241);
+    color: black;
 }
 
-nav {
-    margin: 10px;
+nav, ul{
+    margin-top: 5px;
     display: flex;
     justify-content: space-around;
 }
@@ -25,21 +25,17 @@ nav {
     height: 50px;
 }
 
-ul {
-    display: flex;
-}
-
 .icon {
     height: 32px;
 }
 
 .nav-btn:hover, .social {
-    /* #66FCF1; */
     border: 3px solid transparent;
     box-shadow: 0 0 20px gray;
 }
 
 .nav-btn, .title:hover {
+    color: black;
     font-size: 20px;
     height: 100%;
     padding: 0 20px;
@@ -103,7 +99,7 @@ ul {
 .testimonyPic1, .testimonyPic2, .testimonyPic3 {
     height: 200px;
     border-radius: 20%;
-    border: 2px solid white;
+    border: 3px solid pink;
 }
 
 .asterisk {
@@ -111,7 +107,6 @@ ul {
     border-bottom: 10px ridge #45A29E;
     background: #a6bbd8;
     height: 100px;
-    color: white;
     padding: 5px;
     margin-top: 20px;
 }
