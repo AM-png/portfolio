@@ -16,6 +16,7 @@ body {
 }
 
 nav {
+    margin: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -62,7 +63,7 @@ ul {
     nav {
         justify-content: center;
     }
-    .dropdown {
+    .hidden {
         display: block;
         background: transparent;
         border: 2px solid transparent;
@@ -106,9 +107,15 @@ ul {
 }
 
 .asterisk {
-    border-top: 10px ridge #45A29E;
-    border-bottom: 10px groove #45A29E;
-    background: #1F2937;
+    border-top: 10px groove #45A29E;
+    border-bottom: 10px ridge #45A29E;
+    background: #a6bbd8;
     height: 100px;
+    color: white;
     padding: 5px;
+    margin-top: 20px;
+}
+
+.api-link {
+    text-decoration: underline;
 }

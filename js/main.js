@@ -24,15 +24,14 @@ function switchTheme() {
     if (true) {
         background.style.backgroundImage = 'url("images/darkSpace.jpg")';
         background.style.backgroundSize = 'contain'
+        
         document.querySelector('.github').src = 'images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png'
         let text = document.getElementsByTagName('*')
         for (let i = 0; i < text.length; i++) {
             text[i].style.color = "white";
         }
         
-        let hover = document.querySelector('.nav-btn:hover')
-        
-        .style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
+        document.querySelector('.nav-btn:hover').style.boxShadow = "0 0 20px #66FCF1, 0 0 20px #66FCF1 inset";
         document.querySelector('.nav-btn:hover').style.border = "3px solid #66FCF1"
     }
 }
