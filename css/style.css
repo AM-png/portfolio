@@ -44,7 +44,7 @@ nav, ul{
 }
 
 .nav-btn {
-    transition: all 0.5s;
+    transition: box-shadow 0.5s, border 0.5s;
 }
 
 .nav-btn:hover {
@@ -71,10 +71,16 @@ nav, ul{
 }
 
 .theme {
+    transform: rotate(180deg);
     transition: transform 1s;
 }
 
-.theme:hover, .theme-rotate {
+.theme:active, .theme-rotate {
+    transform: rotate(0);
+    transition: transform 1s;
+}
+
+.theme-rotate:active {
     transform: rotate(180deg);
 }
 
@@ -92,7 +98,7 @@ nav, ul{
     color: black;
 }
 
-.menu-darkM {
+.menu-lightM {
     color:black;
 }
 
