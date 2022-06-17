@@ -19,12 +19,12 @@ fetch("https://fakeface.rest/face/json")
 document.querySelector('.theme').addEventListener('click', switchTheme)
     
 function switchTheme() {
-    document.querySelector('body').classList.toggle("body-darkM")
-    document.querySelector('.github').classList.toggle("github-darkM")
+    document.querySelector('body').classList.toggle("body-lightM")
+    document.querySelector('.github').classList.toggle("github-lightM")
     
     document.querySelector('.theme').classList.toggle('theme-rotate')
-    
-    document.querySelector('.menu').classList.toggle('menu-darkM')
+
+    document.querySelector('.menu').classList.toggle('menu-lightM')
    
     document.querySelector('.nav-btn:hover').classList.toggle("nav-btn-darkM:hover")
 }

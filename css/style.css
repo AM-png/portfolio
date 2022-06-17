@@ -15,17 +15,18 @@ a:visited {
 }
 
 body {
-    background: honeydew;
-}
-
-.body-darkM {
     background-image: url("../images/darkSpace.jpg");
     background-size: contain;
     color: white;
 }
 
-.github-darkM {
-    content: url("../images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png");
+.body-lightM {
+    background: honeydew;
+    color: black;
+}
+
+.github-lightM {
+    content: url("../images/GitHub-Mark/PNG/GitHub-Mark-32px.png");
 }
 
 nav, ul{
@@ -42,14 +43,18 @@ nav, ul{
     height: 32px;
 }
 
-.nav-btn:hover {
-    border: 3px solid transparent;
-    box-shadow: 0 0 20px gray;
+.nav-btn {
+    transition: all 0.5s;
 }
 
-.nav-btn-darkM:hover {
+.nav-btn:hover {
     border: 3px solid #66FCF1;
     box-shadow: 0 0 20px #66FCF1, 0 0 20px #66FCF1 inset;
+}
+
+.nav-btn-lightM:hover {
+    border: 3px solid transparent;
+    box-shadow: 0 0 20px gray;
 }
 
 .nav-btn, .title:hover {
@@ -63,10 +68,6 @@ nav, ul{
     box-shadow: none;
     border-radius: 30px;
     background: transparent;
-}
-
-.nav-btn {
-    transition: box-shadow 0.5s;
 }
 
 .theme {
@@ -84,6 +85,7 @@ nav, ul{
     border: 2px solid transparent;
     border-radius: 15px;
     width: 90px;
+    color:white;
 }
 
 .menu-option {
@@ -91,7 +93,7 @@ nav, ul{
 }
 
 .menu-darkM {
-    color:white;
+    color:black;
 }
 
 @media all and (max-width: 700px) {
