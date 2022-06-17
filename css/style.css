@@ -79,7 +79,10 @@ nav, ul{
 
 .menu {
     display: none;
+    background: transparent;
     font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
 }
 
 .menu-option {
@@ -99,9 +102,6 @@ nav, ul{
     }
     .menu {
         display: block;
-        background: transparent;
-        border: 2px solid transparent;
-        border-radius: 15px;
     }
 }
 
