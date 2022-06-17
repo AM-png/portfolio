@@ -7,7 +7,11 @@
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.2rem;
     font-weight: 800;
+}
 
+a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -61,8 +65,29 @@ nav, ul{
     background: transparent;
 }
 
-.hidden {
+.nav-btn {
+    transition: box-shadow 0.5s;
+}
+
+.theme {
+    transition: transform 1s;
+}
+
+.theme:hover,.theme-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
     display: none;
+    font-size: 20px;
+}
+
+.menu-option {
+    color: black;
+}
+
+.menu-darkM {
+    color:white;
 }
 
 @media all and (max-width: 700px) {
@@ -72,7 +97,7 @@ nav, ul{
     nav {
         justify-content: center;
     }
-    .hidden {
+    .menu {
         display: block;
         background: transparent;
         border: 2px solid transparent;

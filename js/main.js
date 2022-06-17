@@ -21,7 +21,10 @@ document.querySelector('.theme').addEventListener('click', switchTheme)
 function switchTheme() {
     document.querySelector('body').classList.toggle("body-darkM")
     document.querySelector('.github').classList.toggle("github-darkM")
+    
+    document.querySelector('.theme').classList.toggle('theme-rotate')
 
+    document.querySelector('.menu').classList.toggle('menu-darkM')
    
-    // document.querySelector('.nav-btn:hover').toggle("nav-btn-darkM:hover")
+    document.querySelector('.nav-btn:hover').classList.toggle("nav-btn-darkM:hover")
 }
