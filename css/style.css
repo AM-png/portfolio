@@ -15,9 +15,10 @@ a:visited {
 }
 
 body {
-    background-image: url("../images/darkSpace.jpg");
+    background: black;
+    /* background-image: url("../images/darkSpace.jpg");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: contain; */
     color: white;
 }
 
